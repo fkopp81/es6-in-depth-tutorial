@@ -1,4 +1,4 @@
-document.getElementById('example').innerHTML = "Javascript rules!"
+document.getElementById('example').innerHTML = "Javascript rules!";
 
 var a, b; // variables
 a = 'hello'; // statements
@@ -20,5 +20,15 @@ var $_a = 30; // works
 var first greeting = 30; // no whitespace
 var first_greeting = 30;
 var firstGreeting = 30;
-
 */
+
+/* Operators */
+
+var z = 10 + 4 - 2;
+console.log(z);
+var z = 10 * 4 / 2;
+console.log(z);
+var a = "Good " + "day";
+console.log(a);
+var z = 11 % 3; // Great for odds and evens
+console.log(z);
